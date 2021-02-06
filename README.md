@@ -6,7 +6,7 @@
 
 [简体中文](https://github.com/KKLater/CombineAsync/blob/main/README_CN.md)
 
-`Combineasync` 'is an encapsulation based on `Combine Future`. It encapsulates `Future` and provides `async` and `await` API to handle asynchronous events gracefully.
+`CombineAsync` 'is an encapsulation based on `Combine Future`. It encapsulates `Future` and provides `async` and `await` API to handle asynchronous events gracefully.
 
 ## Requirements
 
