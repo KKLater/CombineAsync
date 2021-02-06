@@ -2,7 +2,7 @@
 
 [![Release](https://img.shields.io/badge/Release-v0.0.1-green)]()
 ![Install](https://img.shields.io/badge/Install-SPM-orange)
-![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20iOS%20%7C%20tvOS%20%7C%20watchOS-lightgrey)
+![Platform](https://img.shields.io/badge/Platform-macOS%2010.15%2B%20%7C%20iOS%2013.0%2B%20%7C%20tvOS%2013.0%2B%20%7C%20watchOS%206.0%2B-lightgrey)
 
 [简体中文](https://github.com/KKLater/CombineAsync/blob/main/README_CN.md)
 
