@@ -1,4 +1,7 @@
 # CombineAsync
+[![Release](https://img.shields.io/badge/Release-v0.0.1-green)]()
+![Install](https://img.shields.io/badge/Install-SPM-orange)
+![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20iOS%20%7C%20tvOS%20%7C%20watchOS-lightgrey)
 
 `CombineAsync` 是基于 `Combine Future` 的封装。其对 `Future`  进行封装，提供 `async` 和 `await` `api`，以优雅的处理异步事件。
 
@@ -88,7 +91,6 @@ async {
         let c = try await(self.background3(c: b))
         main {
             print(c) // 111
-            exp.fulfill()
         }
     } catch {
         throw error

@@ -1,5 +1,11 @@
 # CombineAsync
 
+[![Release](https://img.shields.io/badge/Release-v0.0.1-green)]()
+![Install](https://img.shields.io/badge/Install-SPM-orange)
+![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20iOS%20%7C%20tvOS%20%7C%20watchOS-lightgrey)
+
+[简体中文](https://github.com/KKLater/CombineAsync/blob/main/README_CN.md)
+
 `Combineasync` 'is an encapsulation based on `Combine Future`. It encapsulates `Future` and provides `async` and `await` API to handle asynchronous events gracefully.
 
 ## Requirements
@@ -91,7 +97,6 @@ async {
         let c = try await(self.background3(c: b))
         main {
             print(c) // 111
-            exp.fulfill()
         }
     } catch {
         throw error
